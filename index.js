@@ -210,7 +210,8 @@ export default class Ripple extends PureComponent {
           outputRange: [0.5 / radius, R / radius],
         }),
       }],
-
+      
+      // from props
       opacity: this.rippleFades ?
         progress.interpolate({
           inputRange: [0, 1],
